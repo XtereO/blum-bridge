@@ -1,7 +1,7 @@
 {
-  "name": "@blumjs/utils",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@blumjs/bridge",
+  "version": "1.0.1",
+  "description": "Bunch of useful methods vk-bridge",
   "exports": {
     ".": "./dist/index.js"
   },
@@ -23,7 +23,8 @@
     "blum",
     "blumjs",
     "Blue-Meteor",
-    "vk-mini-apps"
+    "vk-mini-apps",
+    "vk-mini-app"
   ],
   "license": "ISC",
   "devDependencies": {

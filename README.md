@@ -4,7 +4,7 @@
 
 # Description
 
-This library gives functions based on [vk-bridge](https://www.npmjs.com/package/@vkontakte/vk-bridge). Created for fast developing vk-mini-apps. I recomend use it with @blumjs/cli.
+This library gives functions based on [vk-bridge](https://www.npmjs.com/package/@vkontakte/vk-bridge). Created for fast developing vk-mini-apps. I recomend use it with [@blumjs/cli](https://www.npmjs.com/package/@blumjs/cli).
 
 ## Functions
 
