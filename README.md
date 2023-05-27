@@ -1,35 +1,35 @@
 <div align="center">
-    <img width="134" src="https://webstockreview.net/images/comet-clipart-meteorite-4.png">
+    <img src="https://drive.google.com/uc?export=view&id=14_MxI0TSoz8wK9e-f8BHzworUfehaZz3"/>
 </div>
 
-# Description
+# Описание
 
-This library gives functions based on [vk-bridge](https://www.npmjs.com/package/@vkontakte/vk-bridge). Created for fast developing vk-mini-apps. I recomend use it with [@blumjs/cli](https://www.npmjs.com/package/@blumjs/cli).
+Библиотека является надстройкой над [vk-bridge](https://www.npmjs.com/package/@vkontakte/vk-bridge). Сделана для быстрой разработки vk-mini-apps. Рекоменудется использовать с [@blumjs/cli](https://www.npmjs.com/package/@blumjs/cli).
 
-## Functions
+## Функции
 
-All results functions track in bridge.subscribe
+Все результаты функций можно отследить в секции [bridge.subscribe](https://www.npmjs.com/package/@vkontakte/vk-bridge)
 
-- allowNotification: no args
+- allowNotification: нет аргументов
 
-- closeApp: no args
+- closeApp: нет аргументов
 
-- copyText: require text for copy in clipboard
+- copyText: требует текст, который будет скопирован в буфер обмена
 
-- denyNotification: no args
+- denyNotification: нет аргументов
 
-- downloadFile: 1st arg is url for file, 2nd is filename
+- downloadFile: первый аргумент url файла, второй - название
 
-- getStorage: require array of keys
+- getStorage: нужен массив ключей
 
-- getStorageKeys: no args
+- getStorageKeys: нет аргументов
 
-- getUserInfo: require userId, if not provided, function will return own userInfo
+- getUserInfo: требует userId
 
-- occureTapticEngine: require style of vibration ("light" | "medium" | "heavy")
+- occureTapticEngine: стиль вибрации ("light" | "medium" | "heavy")
 
-- openApp: 1st arg is app's id, 2nd is hash for open
+- openApp: первый аргумент - id приложения, второй - hash для открытия
 
-- setStorageValue: arg is object with key and value
+- setStorageValue: объект с ключом и значением {key: "string", value: "string"}
 
-- shareLink: require link
+- shareLink: нужна ссылка
